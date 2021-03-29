@@ -1,0 +1,12 @@
+1. default: Epoch: 10, Accuracy:17.09; Epoch: 10, Accuracy:17.09;
+2. batch = 8: Epoch: 10, Accuracy:17.64; Epoch: 10, Accuracy:17.64;
+3. batch = 16: Epoch: 10, Accuracy:18.51; Epoch: 10, Accuracy:18.51;
+4. lr = 0.05: Epoch: 10, Accuracy:2.94; Epoch: 3, Accuracy:4.54;
+5. lr = 0.01: Epoch: 10, Accuracy:14.49; Epoch: 10, Accuracy:14.49;
+6. epochs = 20: Epoch: 20, Accuracy:19.81; Epoch: 10, Accuracy:19.81;
+7. epochs = 5: Epoch: 5, Accuracy:14.07; Epoch: 5, Accuracy:14.07;
+
+#  condition; epoch 10 accuracy; highest accuarcy epoch and accuracy
+
+# python train_miniplaces.py --
+# python eval_miniplaces.py --load ./outputs/model_best.pth.tar
